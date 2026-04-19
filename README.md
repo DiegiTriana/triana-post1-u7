@@ -24,7 +24,10 @@ mvn clean spring-boot:run
 ## Verificacion
 - Consola H2: `http://localhost:8080/h2-console`
 
-## Evidencias de Verificacion (2026-04-17 16:26:56)
+## Evidencias de Verificacion 
+
+![command](captura1.png)
+
 
 | Checkpoint | Estado | Evidencia |
 |---|---|---|
