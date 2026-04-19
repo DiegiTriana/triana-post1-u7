@@ -32,7 +32,6 @@ mvn clean spring-boot:run
 | Checkpoint | Estado | Evidencia |
 |---|---|---|
 | Compila sin errores (mvn compile) | PASS | mvn -q -DskipTests compile |
-| Aplicacion inicia en puerto de prueba | PASS | http://localhost:18503 |
 | GET /api/tareas inicial retorna 200 | PASS | status=200 |
 | POST valido retorna 201 | PASS | status=201, id=1 |
 | POST sin titulo retorna 400 | PASS | status=400 |
